@@ -59,7 +59,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
     });
 
     final response = await http.get(
-      Uri.parse('https://reqres.in/api/users?page=$currentPage&per_page=6'),
+      Uri.parse('https://reqres.in/api/users?page=$currentPage&per_page=1'),
       headers: {'Accept': 'application/json'},
     );
 
